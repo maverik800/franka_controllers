@@ -1,0 +1,11 @@
+<library path="lib/lib<name_of_your_controller_library>">
+
+  <class name="name_of_your_controller_package/NameOfYourControllerClass"
+         type="name_of_your_controller_package::NameOfYourControllerClass"
+         base_class_type="controller_interface::ControllerBase">
+    <description>
+      Some text to describe what your controller is doing
+    </description>
+  </class>
+
+</library>

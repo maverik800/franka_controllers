@@ -1,0 +1,15 @@
+<library path ="lib/libmy_controller_lib"> //se volessimo creare un altro controllore, basterebbe modificare lib/libNomeNuovoController_lib
+<class name="my_controller/MyPositionController" 
+type="my_controller_ns::MyPositionController"
+base_class_type="controller_interface::ControllerBase" >
+<description>
+name =  nome della classe e nome della classe a cui è riferita
+type = il controllore del namespace e poi ancora una volta My MyPositionController
+base class = infine dobbiamo dirgli che è una base class del tipo Controller Base e lo eredita il controller_interface.
+
+Ora questa libreria ha un PLUG IN.
+</description>
+</class>
+
+</library>
+
